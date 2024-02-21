@@ -1,0 +1,1 @@
+1. Scaffold-DbContext "Server=CHODBDS-010\SQLEXPRESS;Database=StudentDB;Trusted_Connection=True; encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
