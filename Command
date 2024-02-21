@@ -5,3 +5,5 @@ Microsoft.EntityFrameworkCore.Tools
 
 
 1. Scaffold-DbContext "Server=CHODBDS-010\SQLEXPRESS;Database=StudentDB;Trusted_Connection=True; encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+ for any table or column  update in database
+Scaffold-DbContext "Server=CHODBDS-010\SQLEXPRESS;Database=StudentDB;Trusted_Connection=True; encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
